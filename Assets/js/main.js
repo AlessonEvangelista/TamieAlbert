@@ -1,3 +1,11 @@
+window.onload = function() {
+
+  let imgLink = document.getElementById('imgList'); 
+  // imgLink.addEventListener("click", () => {
+    // alert(imgLink);
+  // });
+
+};
 
 $(function(){
 
@@ -25,5 +33,4 @@ $(function(){
     // document.getElementById ('contador').innerHTML += '<img class="timer" src="https://kitei.com.br/wp-content/uploads/2018/07/aguarde-1.gif" >';
   	
   },1000);
-
 });
